@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hello"
+    android:id="@+id/hello"
+    android:layout_above="@+id/world"
+    android:layout_margin="50dp"
+    android:layout_marginTop="80dp"
+    android:paddingBottom="100dp"
+    android:paddingTop="100dp"
+    android:layout_alignParentTop="true"
+    android:padding="40dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="world"
+        android:id="@+id/world"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:padding="30dp"
+        android:layout_alignParentBottom="true"
+       />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hi"
+        android:id="@+id/hi"
+        android:padding="50dp"
+
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bye"
+        android:id="@+id/bye"
+        android:padding="50dp"
+        android:layout_below="@+id/hi"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
+        android:layout_alignParentRight="true"/>
+
+
+</RelativeLayout>
